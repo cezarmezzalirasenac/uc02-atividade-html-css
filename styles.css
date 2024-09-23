@@ -1,0 +1,52 @@
+/* RESET global */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin-block-end: 0;
+}
+
+/* FIM RESET GLOBAL */
+
+body {
+  display: flex;
+  justify-content: center;
+
+}
+
+#container {
+  background-color: aquamarine; 
+  width: 1000px;
+  height: auto;
+}
+
+#header {
+  width: 100%;
+  height: 300px;
+  background-color: #004ADB;
+}
+
+#content {
+  width: 800px;
+  height: 500px;
+  margin: 0 100px;
+
+  background-color: bisque;
+}
