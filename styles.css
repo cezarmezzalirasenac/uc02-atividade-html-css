@@ -30,12 +30,15 @@ body {
   justify-content: center;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   color: #fff;
+  font-weight: 100;
 }
 
 #container {
-  background-color: aquamarine; 
-  width: 1000px;
+  width: 80vw;
   height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #header {
@@ -43,9 +46,11 @@ body {
   height: 300px;
   background-color: #004ADB;
   display: grid;
-  grid-template-columns: 30% 40% 30%;
+  grid-template-columns: 35% 35% 30%;
   align-items: center;
   padding: 0 50px;
+  font-size: 14px;
+  font-weight: 200;
 }
 
 #header img {
@@ -56,11 +61,63 @@ body {
 
 #title h1 {
   font-size: 50px;
+  font-weight: 800;
+}
+
+#title span {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#contact {
+  text-align: end;
+}
+
+#contact a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#contact ul li {
+  list-style: none;
+  font-size: 20px;
+  font-weight: 300;
 }
 
 #content {
-  width: 800px;
+  width: 90%;
   height: 500px;
-  margin: 0 100px;
-  background-color: bisque;
+  color: #000;
+  padding: 20px 30px;
+  background-color: azure;
+}
+
+#about {
+  padding: 20px 0;
+}
+
+#about h1 {
+  font-size: 50px;
+  color: #004ADB;
+}
+
+#about p {
+  font-size: 20px;
+  text-align: justify;
+  font-weight: 300;
+}
+
+
+#details {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 20px;
+}
+
+.general-lists {}
+
+.general-lists h1 {
+  color: #004ADB;
+  font-size: 30px;
+
 }
